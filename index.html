@@ -95,9 +95,11 @@
                                         <i class='bx bx-phone home__icon'></i> +55 21 991634147
                                     </span>
                                 </div>
-                           
                         </div>
-    
+                        <i class='bx bx-moon change-theme' title='Theme' id='theme-button' ></i>
+                       <div>
+                        <a download="" href="assets/pdf/cv - Google Docs.pdf"><i class='bx bx-download generate-pdf' title='Generate PDF' id='resume-button' ></i></a>
+                       </div> 
                     </section>          
                     
                     <!--========== SOCIAL ==========-->
@@ -160,8 +162,38 @@
 
 
                     <!--========== SKILLS  ==========-->
+               
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Mathematics Teacher</h3>
+                                    <span class="experience__company"></span>From 2018 to present | The British School of Rio de Janeiro
+                                    <p class="experience__description">Passionate math teacher with 4+ years of experience in high school and middle school environments. Designed integrated lesson plans and incorporated authorial college prep elements into the IGCSE and IB curricula. During the pandemic, created comprehensive lesson plans incorporating various methods of teaching to ensure pupils are actively engaged and understand the materials</p>
+                                    
+                                    <span class="experience__compoany"></span>From 2016 to 2018 | Escola Municipal Estado da Guanabara (State School)
+                                    <p class="experience__description">Worked as a Mathematics teacher for the stated of Rio de Janeiro</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        
+                    </section>
                     <section class="skills section" id="skills">
-                        <h2 class="section-tile">Skills</h2>
+                        <h2 class="section-title">Skills</h2>
 
                         <div class="skills__content bd-grid">
                             <ul class="skills__data">
@@ -194,49 +226,13 @@
                                 <li class="skills__name">
                                     <span class="skills__circle"></span>Next.js
                                 </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Git
+                                </li>
                             </ul>
                         </div>
                     </section>
-
-                </div>
-
-                <div class="resume__right">
-                    <!--========== EXPERIENCE ==========-->
-                    <section class="experience section" id="experience">
-                        <h2 class="section-title">Experience</h2>
-
-                        <div class="experience__container bd-grid">
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Mathematics Teacher</h3>
-                                    <span class="experience__compoany"></span>From 2018 to present | The British School of Rio de Janeiro
-                                    <p class="experience__description">Worked on meeting educational standards and enlightening students.</p>
-                                </div>
-                            </div>
-
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="experience__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Mathematics Teacher</h3>
-                                    <span class="experience__compoany"></span>From 2016 to 2018 | Escola Municipal Estado da Guanabara (State School)
-                                    <p class="experience__description">Worked as a Mathematics teacher for the stated of Rio de Janeiro</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <!--========== CERTIFICATES ==========-->
-                    <section class="certificate section" id="certificates">
-                        
-                    </section>
-
                     <!--========== REFERENCES ==========-->
                     <section class="references section" id="references">
                         
@@ -284,7 +280,9 @@
         </main>
 
         <!--========== SCROLL TOP ==========-->
-        
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
 
         <!--========== HTML2PDF ==========-->
         <script src="assets/js/html2pdf.bundle.min.js"></script>
